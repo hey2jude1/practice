@@ -27,6 +27,12 @@
   transform: translate(-50%, -50%);
   text-align: center;
 }
+.centeredR {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .centered h1 {
   text-align: left;
@@ -68,17 +74,16 @@
   left: 80px;
   top: 60px;
   z-index: 1;
-  clip: rect(0px, 60px, 200px, 0px);
 }
 
 .av-body {
-  height: 200px;
+  height: 150px;
   width: 135px;
   border-radius: 30%;
   background-color: rgb(231, 220, 220);
   position: relative;
   left: 60px;
-  top: 50px;
+  top: 70px;
   z-index: 1;
 }
 
@@ -105,17 +110,23 @@
 }
 
 .hair {
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 120px;
+  border-radius: 100px/50px;
   background-color: rgb(134, 76, 17);
   position: absolute;
   left: 70px;
   top: 50px;
-  clip-path: polygon(0 0, 60% 0, 60% calc(100% - 8vw), 0 80%);
 }
 
-li {
-  list-style: none;
-  display: inline-block;
-  background-color: yellow;
+/*
+.bag {
+  height: 120px;
+  width: 120px;
+  background-color: rgb(134, 76, 17);
+  position: absolute;
+  left: 70px;
+  top: 30px;
+  z-index: 1;
 }
+*/
