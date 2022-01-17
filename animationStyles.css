@@ -1,0 +1,22 @@
+#home-section {
+  background: url("./images/womanBook.jpg");
+  background-repeat: none;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+#home-section,
+.light-overlay {
+  position: fixed;
+  top: 0;
+  right: 50%;
+  width: 50%;
+  height: 100%;
+  background-color: rgb(26, 19, 109, 0.7);
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+}

@@ -38,29 +38,62 @@
   text-align: left;
 }
 
+@keyframes cloud-1 {
+  from {
+    left: 700px;
+  }
+  to {
+    left: -300px;
+  }
+}
+
 #cloud1 {
-  position: absolute;
-  left: 400px;
-  margin: 50px;
+  position: relative;
+  animation: cloud-1 25s infinite linear;
+  animation-direction: normal;
+  transition-property: sliding;
 }
 
 #cloud2 {
-  position: absolute;
-  top: 10px;
-  left: 250px;
+  position: relative;
+  top: 150px;
+  left: 500px;
+  animation-delay: 3s;
+  animation: cloud-1 25s infinite linear;
+  animation-direction: normal;
+  transition-property: sliding;
 }
 
 #cloud3 {
-  position: absolute;
-  top: 10px;
-  left: 20px;
+  position: relative;
+  animation: cloud-1 30s infinite linear;
+  animation-direction: normal;
+  transition-property: sliding;
+}
+
+#cloud4 {
+  position: relative;
+  top: 120px;
+  left: 700px;
+  animation: cloud-1 30s infinite linear;
+  animation-direction: normal;
+  animation-delay: 10s;
+}
+
+#cloud5 {
+  position: relative;
+  top: 120px;
+  left: 700px;
+  animation: cloud-1 30s infinite linear;
+  animation-direction: normal;
+  animation-delay: 15s;
 }
 
 .avatar-background {
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  background-color: #0e076a;
+  background-color: #07536a;
   overflow: hidden;
   z-index: -1;
 }
