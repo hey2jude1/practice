@@ -1,22 +1,136 @@
-#home-section {
-  background: url("./images/womanBook.jpg");
-  background-repeat: none;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100vh;
+* {
+  box-sizing: border-box;
 }
 
-#home-section,
-.light-overlay {
-  position: fixed;
-  top: 0;
-  right: 50%;
-  width: 50%;
-  height: 100%;
-  background-color: rgb(26, 19, 109, 0.7);
+body {
+  margin: 0;
 }
 
-li {
-  display: inline-block;
-  list-style: none;
+.header {
+  padding: 0px 0px 100px;
+  text-align: center;
+  background-color: #d8dce6;
+  overflow: hidden;
+}
+
+@keyframes cloud-1 {
+  from {
+    left: 700px;
+  }
+  to {
+    left: -600px;
+  }
+}
+
+#cloud1 {
+  position: relative;
+  animation: cloud-1 25s infinite linear;
+  animation-direction: normal;
+  transition-property: sliding;
+}
+
+#cloud2 {
+  position: relative;
+  top: 150px;
+  left: 500px;
+  animation-delay: 3s;
+  animation: cloud-1 25s infinite linear;
+  animation-direction: normal;
+  transition-property: sliding;
+}
+
+#cloud3 {
+  position: relative;
+  animation: cloud-1 30s infinite linear;
+  animation-direction: normal;
+  transition-property: sliding;
+}
+
+#cloud4 {
+  position: relative;
+  top: 120px;
+  left: 700px;
+  animation: cloud-1 30s infinite linear;
+  animation-direction: normal;
+  animation-delay: 10s;
+}
+
+#cloud5 {
+  position: relative;
+  top: 120px;
+  left: 700px;
+  animation: cloud-1 30s infinite linear;
+  animation-direction: normal;
+  animation-delay: 15s;
+}
+
+#cloud6 {
+  position: relative;
+  left: -800px;
+  animation: cloud-1 25s infinite linear;
+  animation-delay: 4s;
+  animation-direction: normal;
+}
+
+#cloud7 {
+  position: relative;
+  left: 800px;
+  animation: cloud-1 30s infinite linear;
+  animation-direction: normal;
+  animation-delay: 4s;
+}
+
+.navbar1 {
+  display: flex;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #0e076a;
+}
+
+.navbar a:hover {
+  color: #d8dce6;
+}
+
+.row {
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 50%;
+  background-color: #0e076a;
+  padding: 10px;
+}
+
+.main {
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+}
+
+.fakeimg {
+  background-color: gray;
+  margin: 0 0 10px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #ddd;
+}
+
+@media screen and (max-width: 700px) {
+  .row,
+  .navbar {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    flex: auto;
+  }
 }

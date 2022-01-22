@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+/* 
+.header {
+  padding: 20px;
+}
+
+.header a {
+  padding: 20px;
+  text-decoration: none;
+  color: blue;
+}
+
+.header a:hover {
+  background-color: blue;
+  color: aliceblue;
+} */
+
+.header-main {
+  padding: 40px;
+}
+.header-main h1 {
+  font-size: 96px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+img {
+  justify-content: center;
+}
+
+.left {
+  padding: 20px;
+  flex: 50%;
+  flex-direction: column;
+  background-color: #cddfeb;
+  color: #4535d2;
+}
+
+.left h1 {
+  text-align: center;
+}
+
+.left p,
+.right p {
+  text-align: justify;
+  padding: 20px;
+  margin: 20px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.right {
+  padding: 20px;
+  flex: 50%;
+  flex-direction: column;
+  background-color: #2d2f3c;
+  color: #eee7dd;
+}
+
+.right h1 {
+  text-align: center;
+}
+
+/* .footer {
+  background-color: rgb(132, 0, 255);
+} */
+
+.footer i {
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+a {
+  cursor: pointer;
+}
+
+button {
+  padding: 20px 40px;
+  border-radius: 25px;
+  border: none;
+  margin-left: 200px;
+}
+
+/* #avatar-psych {
+  flex: 50%;
+  margin-left: auto;
+} */
+
+@media screen and (max-width: 800px) {
+  .right,
+  .left,
+  .row,
+  .header {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 5000px) {
+  .right,
+  .left {
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header-main h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header-main h1 {
+    font-size: 35px;
+  }
+}
