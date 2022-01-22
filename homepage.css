@@ -62,6 +62,9 @@ img {
 .right h1 {
   text-align: center;
 }
+.avatar {
+  padding: 0px 25% 0px;
+}
 
 /* .footer {
   background-color: rgb(132, 0, 255);
