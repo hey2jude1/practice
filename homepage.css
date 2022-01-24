@@ -51,6 +51,22 @@ img {
   flex-direction: row;
 }
 
+.wrapper {
+  height: auto;
+  position: relative;
+}
+
+.button-center {
+  margin: 0;
+  position: relative;
+}
+
+button {
+  padding: 20px 40px;
+  border-radius: 25px;
+  border: none;
+}
+
 .right {
   padding: 20px;
   flex: 50%;
@@ -83,13 +99,6 @@ img {
 
 a {
   cursor: pointer;
-}
-
-button {
-  padding: 20px 40px;
-  border-radius: 25px;
-  border: none;
-  margin-left: 200px;
 }
 
 @media screen and (max-width: 800px) {

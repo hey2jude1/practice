@@ -1,3 +1,10 @@
+.navbar {
+  position: absolute;
+  width: 100%;
+  background-color: aliceblue;
+  z-index: 1;
+}
+
 .split {
   height: 100%;
   width: 50%;
@@ -117,7 +124,7 @@
   }
 } */
 
-/* .avatar-background {
+.avatar-background {
   width: 250px;
   height: 250px;
   border-radius: 50%;
@@ -125,7 +132,7 @@
   overflow: hidden;
   z-index: -1;
 }
-
+/* 
 .head {
   width: 100px;
   height: 100px;
