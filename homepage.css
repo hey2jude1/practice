@@ -62,17 +62,27 @@ img {
 .right h1 {
   text-align: center;
 }
-.avatar {
-  padding: 0px 25% 0px;
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* .footer {
-  background-color: rgb(132, 0, 255);
-} */
+.footer {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  background-color: aqua;
+}
 
 .footer i {
   padding: 40px;
   flex-wrap: wrap;
+  flex-direction: row;
+  left-margin: auto;
+  right-margin: auto;
+  background-color: #4535d2;
 }
 
 a {
@@ -86,11 +96,6 @@ button {
   margin-left: 200px;
 }
 
-/* #avatar-psych {
-  flex: 50%;
-  margin-left: auto;
-} */
-
 @media screen and (max-width: 800px) {
   .right,
   .left,
@@ -103,7 +108,7 @@ button {
 @media screen and (max-width: 5000px) {
   .right,
   .left {
-    height: 100%;
+    height: auto;
   }
 }
 
