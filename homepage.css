@@ -73,16 +73,12 @@ img {
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
-  background-color: aqua;
 }
 
 .footer i {
-  padding: 40px;
+  padding: 20px;
   flex-wrap: wrap;
   flex-direction: row;
-  left-margin: auto;
-  right-margin: auto;
-  background-color: #4535d2;
 }
 
 a {
